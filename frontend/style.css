@@ -1,0 +1,294 @@
+body {
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: white;
+}
+
+body {
+  background: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #55668a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background: #1e293b;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
+nav a:hover {
+  color: #facc15;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px;
+}
+.hero h2 {
+  color: #2563eb;
+  font-size: 40px;
+}
+.hero p {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #1d4ed8;
+}
+
+.about {
+  background: white;
+  margin: 30px;
+  padding: 30px;
+}
+
+.course-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 260px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+
+footer {
+  background: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.features {
+padding: 60px;
+text-align: center;
+background: #eef4ff;
+}
+.feature-container {
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+}
+.feature {
+width: 300px;
+padding: 25px;
+background: white;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0,0,0,.15);
+transition: .3s;
+}
+/* Hover — zoom effect */
+.feature:hover {
+transform: scale(1.05);
+}
+
+.cta {
+background: #2563eb;
+color: white;
+padding: 60px;
+text-align: center;
+}
+.cta button {
+margin-top: 20px;
+}
+
+
+/* Student Section */
+.box-model-demo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+    background: #f5f7fa;
+}
+
+/* Section Heading */
+.box-model-demo h3:first-child {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+/* Student Card */
+.student-card {
+    background: #fff;
+    width: 220px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.student-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Student Image */
+.student-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #2563eb;
+    margin-bottom: 12px;
+}
+
+/* Student Name */
+.student-card h3 {
+    margin: 10px 0 8px;
+    color: #1e3a8a;
+    font-size: 22px;
+}
+
+/* Student Details */
+.student-card p {
+    margin: 6px 0;
+    color: #555;
+    font-size: 15px;
+}
+
+@media(max-width:768px) {
+nav { flex-direction: column; }
+.hero { padding: 30px; }
+.hero h2{ font-size: 26px; }
+.hero p { font-size: 16px; }
+.btn { width: 100%; }
+.course-card{ width: 100%; }
+.feature{ width: 100%; }
+.about { margin: 15px; padding: 20px; }
+footer { font-size: 14px; }
+}
+
+.profile-card {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 16px;
+}
+/* Mobile: stacked vertically */
+@media(max-width:768px) {
+.profile-card {
+flex-direction: column;
+text-align: center;
+width: 100%;
+}
+}
+
+/* Center the card on the page */
+
+
+/* Profile Card */
+.body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(37,37,111);
+    margin-bottom: 40px;
+}
+
+/* Parent Container */
+.profile-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* Card */
+.Profile-card{
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.profile-icon{
+    font-size: 50px;
+}
+
+.Profile-card h3{
+    margin: 15px 0 8px;
+}
+
+.Profile-card p{
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Skills */
+.skills{
+    margin: 15px 0;
+}
+
+.skills span{
+    display: inline-block;
+    background-color: #e8ecff;
+    color: rgb(37,37,111);
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+/* Button */
+.btn{
+    background-color: rgb(37,37,111);
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(22,22,82);
+}
