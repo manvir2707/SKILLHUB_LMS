@@ -2,166 +2,455 @@
 <html>
   <head>
     <title>SkillHub LMS</title>
-    <meta name=""viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- HOUR 1 -->
-    <header>
-      <h1>SkillHub LMS</h1>
-    </header>
-    <nav>
-      <a href="#"> Home </a>
-      <a href="#"> Courses </a>
-      <a href="#"> About </a>
-      <a href="#"> Contact </a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+        <section class="bg-dark text-white py-5">
+<div class="container">
+<div class="row align-items-center">
+<!-- Left column: text -->
+<div class="col-md-6">
+<h1 class="display-5 fw-bold">
+Master Full Stack
+Development
+</h1>
+<p class="lead mt-3">
+Learn HTML, CSS, JavaScript,
+React, Node & MongoDB
+</p>
+<div class="d-flex gap-3 mt-4">
+<button class="btn btn-primary btn-lg">Get Started</button>
+<button class="btn btn-outline-light btn-lg">Learn More</button>
+</div>
+</div>
+
+<div class="col-md-6 text-center mt-4 mt-md-0">
+<img src="/frontend/assets/web1.webp" class="img-fluid rounded" alt="coding">
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#">SkillHub LMS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu">
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Courses </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
 
-    <section class="hero">
-      <!-- class added here -->
-      <h2>Become a Full Stack Developer</h2>
-      <p>Learn HTML, CSS, JavaScript, React, Node.js and MongoDB.</p>
-      <button class="btn">Explore Courses</button>
-      <button class="btn">Join now</button>
-      <button class="btn">Learn more</button>
-    </section>
+    <section class="bg-primary text-white py-5">
+    <div class="container">
+        <div class="row align-items-center">
 
-    <section class="about">
-      <h2>About SkillHub LMS</h2>
-      <p>
-        SkillHub LMS helps students learn modern web development through
-        practical projects.
-      </p>
-    </section>
-    <!-- HOUR 3: Courses -->
-    <section>
-      <h2>Our Courses</h2>
-      <div class="course-container">
-        <div class="card">
-          <h3>HTML & CSS</h3>
-          <p>Learn website fundamentals.</p>
+            <div class="col-lg-6">
+                <h1 class="display-3 fw-bold">
+                    Become a Full Stack Developer
+                </h1>
+
+                <p class="lead my-4">
+                    Learn HTML, CSS, JavaScript, React, Bootstrap,
+                    Node.js, Express and MongoDB with hands-on projects.
+                </p>
+
+                <a href="#" class="btn btn-light btn-lg me-3">
+                    Get Started
+                </a>
+
+                <a href="#" class="btn btn-outline-light btn-lg">
+                    Explore Courses
+                </a>
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <img src="hero.png"
+                     class="img-fluid"
+                     width="500">
+            </div>
+
         </div>
-        <div class="card">
-          <h3>JavaScript</h3>
-          <p>Build interactive websites.</p>
+    </div>
+</section>
+
+    
+    <section class="courses py-5">
+      <div class="container">
+<h2 class="text-center fw-bold mb-3">
+Our Courses
+</h2>
+<p class="text-center text-muted mb-5">Learn latest tecnologies</p>
+
+
+      
+        <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+<div class="card-body">
+          <h4 class="card-title">HTML & CSS</h4>
+          <p class="card-text">Learn website fundamentals.</p>
+          <a href="#" class="btn btn-primary">Learn more</a>
         </div>
-        <div class="card">
-          <h3>React</h3>
-          <p>Create modern web applications.</p>
-          </div>
-          <div class="card">
-           <h3>MongoDB</h3> 
-           <p>Store and manage data</p>
-          </div>
-          <div class="card">
-           <h3>Bootstrap</h3> 
-           <p>Build responsive websites</p>
+        </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+          <h4 class="card-title">HTML & CSS</h4>
+          <p class="card-text">Build interactive websites.</p>
+          <a href="#" class="btn btn-primary">Learn more</a>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+          <h4 class="card-title">Javascript</h4>
+          <p class="card-text">Create modern web applications.</p>
+          <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+          <h4 class="card-title">React</h4>
+          <p class="card-text">Store and manage data</p>
+          <a href="#" class="btn btn-primary">Learn more</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+          <h4 class="card-title">Bootstrap</h4>
+          <p class="card-text">
+          <p>Build responsive websites</p>
+          <a href="#" class="btn btn-primary">Learn more</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-md-4"><div class="card h-100">
+            <div class="card-body">
+          <h4 class="card-title">Node.js</h4>
+          <p class="card-text">Build scalable server-side applications</p>
+          <a href="#" class="btn btn-primary">Learn more</a>
+        </div>
+        </div>
+        </div>
+      
+        <div class="row justify-content-center mt-4"
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+          <h4 class="card-title">Express.js</h4>
+          <p class="card-text">Build scalable server-side applications</p>
+          <a href="#" class="btn btn-primary">Learn more</a>
+        </div>
+        </div>
+        </div>
       </div>
-           <div class="card">
-           <h3>Node.js</h3> 
-           <p>Build scalable server-side applications</p>
-           </div>
-           <div class="card">
-           <h3>Express.js</h3> 
-           <p>Build scalable server-side applications</p>
-          </div>
-          </div>
+      
+  
     </section>
-    <section class="features">
-<h2>Why Choose SkillHub?</h2>
-<div class="feature-container">
-<div class="feature">
-<h3>💻 Practical Learning</h3>
-<p>Build projects every day.</p>
+    <section class="py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-5">
+Why Choose SkillHub?
+</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+
+<div class="card shadow h-100 text-center border-0">
+
+<div class="card-body">
+
+<div class="display-4">
+💻
 </div>
-<div class="feature">
-<h3>👨‍🏫 Expert Trainers</h3>
-<p>Industry-oriented teaching.</p>
+
+<h4>Practical Learning</h4>
+
+<p>
+Build real-world projects.
+</p>
+
 </div>
-<div class="feature">
-<h3>🚀 Placement Support</h3>
-<p>Resume & Interview Prep.</p>
+
 </div>
-</div> <!-- .feature-container -->
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card shadow h-100 text-center border-0">
+
+<div class="card-body">
+
+<div class="display-4">
+👨‍🏫
+</div>
+
+<h4>Expert Trainers</h4>
+
+<p>
+Learn from industry professionals.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card shadow h-100 text-center border-0">
+
+<div class="card-body">
+
+<div class="display-4">
+🚀
+</div>
+
+<h4>Placement Support</h4>
+
+<p>
+Resume and Interview preparation.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
-<section class="box-model-demo">
+
+      
+      <!-- .feature-container -->
+    </section>
+    <section class="box-model-demo">
       <h3>Our Students</h3>
-<div class="student-card">
-  <img src="/frontend/assets/student.jpg" alt="Student"  height="60">
-  <h3>Rahul Sharma</h3>
-  <p>Mern Stack student</p>
-  <p>Batch: 2026</p>
+      <div class="student-card">
+        <img src="/frontend/assets/student.jpg" alt="Student" height="60" />
+        <h3>Rahul Sharma</h3>
+        <p>Mern Stack student</p>
+        <p>Batch: 2026</p>
+      </div>
+      <div class="student-card">
+        <img src="assets/student 2.webp" height="60" />
+        <h3>Priya Patel</h3>
+        <p>Mern Stack student</p>
+        <p>Batch: 2025</p>
+      </div>
+    </section>
+
+    <div class="container py-5">
+  <div class="row g-4">
+
+    <!-- Trainer 1 -->
+    <div class="col-md-4">
+      <div class="card shadow-lg border-0 h-100 text-center">
+        <div class="card-body">
+
+          <img
+            src="trainer1.jpg"
+            class="rounded-circle mb-3"
+            width="120"
+            alt="Vijay Kumar"
+          >
+
+          <h4 class="fw-bold">Vijay Kumar</h4>
+
+          <p class="text-primary">
+            Senior Full Stack Developer
+          </p>
+
+          <p class="text-muted">
+            8+ Years Experience
+          </p>
+
+          <a href="#" class="btn btn-outline-primary btn-sm">
+            LinkedIn
+          </a>
+
+          <a href="#" class="btn btn-dark btn-sm">
+            GitHub
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Trainer 2 -->
+    <div class="col-md-4">
+      <div class="card shadow-lg border-0 h-100 text-center">
+        <div class="card-body">
+
+          <img
+            src="trainer2.jpg"
+            class="rounded-circle mb-3"
+            width="120"
+            alt="Priya Sharma"
+          >
+
+          <h4 class="fw-bold">Priya Sharma</h4>
+
+          <p class="text-primary">
+            UI/UX Designer
+          </p>
+
+          <p class="text-muted">
+            6+ Years Experience
+          </p>
+
+          <a href="#" class="btn btn-outline-primary btn-sm">
+            LinkedIn
+          </a>
+
+          <a href="#" class="btn btn-dark btn-sm">
+            GitHub
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Trainer 3 -->
+    <div class="col-md-4">
+      <div class="card shadow-lg border-0 h-100 text-center">
+        <div class="card-body">
+
+          <img
+            src="trainer3.jpg"
+            class="rounded-circle mb-3"
+            width="120"
+            alt="Rahul Singh"
+          >
+
+          <h4 class="fw-bold">Rahul Singh</h4>
+
+          <p class="text-primary">
+            MERN Stack Trainer
+          </p>
+
+          <p class="text-muted">
+            7+ Years Experience
+          </p>
+
+          <a href="#" class="btn btn-outline-primary btn-sm">
+            LinkedIn
+          </a>
+
+          <a href="#" class="btn btn-dark btn-sm">
+            GitHub
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
-<div class="student-card">
-  <img src="assets/student 2.webp"  height="60">
-  <h3>Priya Patel</h3>
-  <p>Mern Stack student</p>
-  <p>Batch: 2025</p>
+
+    <section class="cta">
+      <h2>Ready to Become a Full Stack Developer?</h2>
+      <button class="btn">Join Today</button>
+    </section>
+
+    <section class="py-5 bg-light">
+
+<div class="container">
+
+<div class="row text-center">
+
+<div class="col-md-3">
+<h2 class="fw-bold text-primary">5000+</h2>
+<p>Students</p>
 </div>
+
+<div class="col-md-3">
+<h2 class="fw-bold text-primary">40+</h2>
+<p>Courses</p>
+</div>
+
+<div class="col-md-3">
+<h2 class="fw-bold text-primary">120+</h2>
+<p>Projects</p>
+</div>
+
+<div class="col-md-3">
+<h2 class="fw-bold text-primary">95%</h2>
+<p>Placement Rate</p>
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section class="instructors">
-<h2 style="color: rgb(37, 37, 111); text-align: center; font-weight: bold; font-size: 40px;">
-  Meet our Instructors
-</h2>
-<div class="profile-container">
-
-  <div class="Profile-card">
-    <div class="profile-icon">👨‍💻</div>
-    <h3>Vijay Kumar</h3>
-    <p>Full Stack Developer</p>
-    <p>with 8 years of experience</p>
-    <div class="skills">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>React</span>
-    </div>
-    <button class="btn">View Profile</button>
-  </div>
-
-  <div class="Profile-card">
-    <div class="profile-icon">👩‍💻</div>
-    <h3>Priya Sharma</h3>
-    <p>UI/UX Designer</p>
-    <p>with 6 years of experience</p>
-    <div class="skills">
-      <span>Figma</span>
-      <span>Adobe XD</span>
-      <span>Photoshop</span>
-      <span>Canva</span>
-    </div>
-    <button class="btn">View Profile</button>
-  </div>
-
-  <div class="Profile-card">
-    <div class="profile-icon">🧑‍🏫</div>
-    <h3>Rahul Mehta</h3>
-    <p>MERN Stack Trainer</p>
-    <p>with 10 years of experience</p>
-    <div class="skills">
-      <span>MongoDB</span>
-      <span>Express.js</span>
-      <span>React</span>
-      <span>Node.js</span>
-    </div>
-    <button class="btn">View Profile</button>
-  </div>
-
-</div>
-</section>
-
-<section class="cta">
-<h2>
-Ready to Become a
-Full Stack Developer?
-</h2>
-<button class="btn">
-Join Today
-</button>
-</section>
     <footer>
-      <p> &copy; 2024 SkillHub LMS. All rights reserved</p>
+      <p>&copy; 2024 SkillHub LMS. All rights reserved</p>
     </footer>
+
+    <script
+src
+="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/…"
+></script>
+<!-- Our JavaScript -->
+<script
+src
+="js/script.js"
+></script>
+</body>
+</html>
+
   </body>
 </html>
